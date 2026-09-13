@@ -97,6 +97,7 @@ Conventions mirror **[Bracket notation and the `references` object](#bracket-not
 | `tiles-player_report_photos`    | [PLAYER_REPORT_PHOTOS_CHANGES.md](./tiles-player_report_photos/PLAYER_REPORT_PHOTOS_CHANGES.md)                          |
 | `tiles-speaktosidepanel_border` | [SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md](./tiles-speaktosidepanel_border/SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md)             |
 | `tool-backgrounds`              | [TOOL_BACKGROUNDS_CHANGES.md](./tool-backgrounds/TOOL_BACKGROUNDS_CHANGES.md)                                           |
+| `player-attributes-ca-pa`       | [PLAYER_ATTRIBUTES_CA_PA_CHANGES.md](./player-attributes-ca-pa/PLAYER_ATTRIBUTES_CA_PA_CHANGES.md)                       |
 
 Reference-only notes:
 
@@ -122,6 +123,7 @@ Use **logical filename + Path ID** suffix to reopen quickly in UABEA.
 | `ui-tiles_assets_all`         | `Dugout_4x8_with_collapse`      | `-389085435411529779`  | `match-dugout_tile`             |
 | `ui-tiles_assets_all`         | `inlineStyle`                   | `4355907201153990605`  | `match-dugout_tile`             |
 | `ui-tiles_assets_all`         | `inlineStyle`                   | `-812894235568295708`  | `tiles-player_report_photos`    |
+| `ui-tiles_assets_all`         | `PlayerAttributesLargeBlock`    | `7199728689344018492`  | `player-attributes-ca-pa`       |
 | `ui-tiles_assets_all`         | `inlineStyle`                   | `-3307895459461465053` | `tiles-player_report_photos`    |
 | `ui-tiles_assets_all`         | `inlineStyle`                   | `-1253022491152235485` | `tiles-player_report_photos`    |
 | `ui-tiles_assets_all`         | `inlineStyle`                   | `-4358236461696845827` | `tiles-player_report_photos`    |

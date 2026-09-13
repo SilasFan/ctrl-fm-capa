@@ -1,0 +1,14 @@
+{
+  "id": "player-attributes-ca-pa",
+  "name": "Player Attributes - CA/PA Values",
+  "description": "Shows raw Current Ability / Potential Ability numbers in the player attributes block info column.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-tiles_assets_all",
+      "assetName": "PlayerAttributesLargeBlock",
+      "pathId": 7199728689344018492,
+      "file": "PlayerAttributesLargeBlock-CAB-651892cf441cf6c29e5bd20791e24f29-7199728689344018492.json"
+    }
+  ]
+}
