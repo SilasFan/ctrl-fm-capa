@@ -11,7 +11,7 @@
 
 2026-09-13 实测确认：**FM Skin Builder 0.7.0 不会自动应用 `_uabea/` 下的 patch.json**（后端无相关代码；同为 ui-tiles 的 `match-dugout_tile` 补丁在自构建里也从未生效）。README 里"某些改动必须手工在 UABEA 做"即指此事。
 
-**实际可用流程（已验证）**：`F:\tools\fm26-skin-tool`（工程化的补丁工具，`python apply.py`，幂等）：
+**实际可用流程（已验证）**：[fm26-skin-tool](https://github.com/SilasFan/fm-skin-tool)（工程化的补丁工具，`python apply.py`，幂等，本地 `F:\tools\fm26-skin-tool`）：
 
 1. **每次 Builder Build + Apply 之后**运行一次——Builder 会用未打补丁的编译结果覆盖 `ui-tiles_assets_all.bundle`；
 2. 工具自动：读游戏 bundle → 定位锚点（信息列容器 `-1201313256`，ID 失效时回退结构搜索）→ 注入 6 元素/6 引用 → 自检（全部对象可读）→ 带时间戳备份 → 原位部署 → 部署后复验；

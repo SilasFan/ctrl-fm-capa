@@ -113,7 +113,7 @@ FM26 皮肤是纯声明式的，UI 通过 `SI.Bindable` 数据绑定框架被动
 
 | 资源 | 说明 |
 | --- | --- |
-| [fm26-skin-tool](https://github.com/)（本地 `F:\tools\fm26-skin-tool`） | 构建后补丁框架：幂等 apply、自动备份、全对象自检、原位复验；自带 CA/PA 补丁实现 |
+| [fm26-skin-tool](https://github.com/SilasFan/fm-skin-tool)（本地 `F:\tools\fm26-skin-tool`） | 构建后补丁框架：幂等 apply、自动备份、全对象自检、原位复验；自带 CA/PA 补丁实现 |
 | `registry_parsed.json`（7805 条） | 属性注册表全量——绑定路径的理论上限清单 |
 | `all_m_paths.txt`（11014 条） | 游戏 UI 实际使用的 `m_path` 全集 |
 | `column_ids_union.txt`（1851 个） | 表格列 ID 全集（含每列绑定接线） |
@@ -233,7 +233,7 @@ Element entry essentials:
 
 | Resource | Description |
 | --- | --- |
-| fm26-skin-tool (local `F:\tools\fm26-skin-tool`) | post-build patch framework: idempotent apply, auto-backup, full-object verification, in-place re-verification; ships a working CA/PA patch |
+| [fm26-skin-tool](https://github.com/SilasFan/fm-skin-tool) (local `F:\tools\fm26-skin-tool`) | post-build patch framework: idempotent apply, auto-backup, full-object verification, in-place re-verification; ships a working CA/PA patch |
 | `registry_parsed.json` (7805 entries) | full property registry — the theoretical ceiling of bindable paths |
 | `all_m_paths.txt` (11014) | every `m_path` actually used by the stock UI |
 | `column_ids_union.txt` (1851) | full column-ID union (with per-column binding wiring) |
